@@ -22,11 +22,11 @@
         android:layout_height="50dp"
         android:layout_marginStart="220dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/baseline_skip_next_24"
+        android:background="@drawable/skip_next"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_skip_next_24"
+        app:srcCompat="@drawable/skip_next"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="661dp" />
@@ -37,11 +37,11 @@
         android:layout_height="50dp"
         android:layout_marginStart="140dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/baseline_skip_previous_24"
+        android:background="@drawable/skip_backward"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_skip_previous_24"
+        app:srcCompat="@drawable/skip_backward"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="130dp"
         tools:layout_editor_absoluteY="661dp" />
@@ -55,7 +55,7 @@
         android:importantForAccessibility="no"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_search_24"
+        app:srcCompat="@drawable/search"
         tools:layout_editor_absoluteX="18dp" />
 
     <ImageButton
@@ -64,8 +64,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginEnd="10dp"
-        app:srcCompat="@drawable/baseline_playlist_add_24"
-        android:background="@drawable/baseline_playlist_add_24"
+        app:srcCompat="@drawable/playlist_add"
+        android:background="@drawable/playlist_add"
         tools:layout_editor_absoluteX="342dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,6 +85,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="658dp"
         android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/playlist_play"
+        app:srcCompat="@drawable/playlist_play"
+        tools:layout_editor_absoluteX="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteY="658dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
