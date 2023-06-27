@@ -97,7 +97,8 @@
         tools:layout_editor_absoluteX="9dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteY="658dp" />
+        tools:layout_editor_absoluteY="658dp"
+        android:importantForAccessibility="no" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
